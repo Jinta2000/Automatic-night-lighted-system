@@ -23,10 +23,11 @@ A relay is an electrically operated switch of main voltage. Its main use is cont
 # Software setup required
 Arduino IDE
 # Block Diagram
-
+https://github.com/Jinta2000/Automatic-night-lighted-system/blob/master/block%20diagram.png
 
 # Circuit Diagram
-
+https://github.com/Jinta2000/Automatic-night-lighted-system/blob/master/Circuit1.png
+https://github.com/Jinta2000/Automatic-night-lighted-system/blob/master/Circuit2.png
 
 # Working
 We use Arduino UNO as our microcontroller. We program to sense the intensity of light and the presence of humans in a specific region. If the intensity is above a certain level and any human present, then the light will turn ON and otherwise turn OFF. This helps to save power and reduce human energy in normal conditions based on sensors to control the devices. We can control devices depend on sensor value. So we can save power.                        We use two sensors –LDR and PIR sensor- for the purpose. Through this project, we can control the LED working in 230V. We use a relay module for controlling LED working on 230V using a microcontroller working in 5V.
