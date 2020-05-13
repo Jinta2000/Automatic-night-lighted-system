@@ -31,12 +31,12 @@ Arduino IDE
 # Working
 We use Arduino UNO as our microcontroller. We program to sense the intensity of light and the presence of humans in a specific region. If the intensity is above a certain level and any human present, then the light will turn ON and otherwise turn OFF. This helps to save power and reduce human energy in normal conditions based on sensors to control the devices. We can control devices depend on sensor value. So we can save power.                        We use two sensors –LDR and PIR sensor- for the purpose. Through this project, we can control the LED working in 230V. We use a relay module for controlling LED working on 230V using a microcontroller working in 5V.
 # Circuit Assembly
-	Connect one of the LDR legs to the VCC and another leg to the A0 pin of Arduino (the required pin for LDR) and also to the resistor.
-	Connect the resistor to the GND of the Arduino. 
-	The output of PIR is connected to the 13th digital pin of Arduino.
-	The GND and VCC of the PIR and relay modules are connected to GND and VCC respectively.
-	We are using a relay as a switch to control high power devices.
-	The OUT of relay module is connected to 8th pin of Arduino
-	The bulb is connected to the relay module.
+- Connect one of the LDR legs to the VCC and another leg to the A0 pin of Arduino (the required pin for LDR) and also to the resistor.
+- Connect the resistor to the GND of the Arduino. 
+- The output of PIR is connected to the 13th digital pin of Arduino.
+- The GND and VCC of the PIR and relay modules are connected to GND and VCC respectively.
+- We are using a relay as a switch to control high power devices.
+- The OUT of relay module is connected to 8th pin of Arduino
+- The bulb is connected to the relay module.
 # Reference
 https://create.arduino.cc/
